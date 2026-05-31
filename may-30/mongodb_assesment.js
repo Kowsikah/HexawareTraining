@@ -160,9 +160,9 @@ db.restaurants.updateMany({}, { $set: { active: true } })
 db.restaurants.updateOne( { restaurant_id: 1 }, { $addToSet: { tags: "popular" } })
 /*Exercise 34 - delete a fielt in all */
 db.restaurants.updateMany({}, { $unset: { active: "" } })
-/*Exercise 35 - delete a record 6*/
+/*Exercise 35 - delete a document 6*/
 db.restaurants.deleteOne({restaurant_id:6})
-/*Exercise 36- delete records with rating<4.0*/
+/*Exercise 36- delete document with rating<4.0*/
 db.restaurants.deleteMany({ rating: { $lt: 4.0 } })
 /*Exercise 37- Total documents*/
 db.restaurants.countDocuments()
