@@ -28,7 +28,7 @@ CREATE TABLE order_items
 (
 item_id INT PRIMARY KEY,
 order_id INT references orders(order_id),
-product_id INT references product(product_id),
+product_id INT references products(product_id),
 quantity INT
 );
 

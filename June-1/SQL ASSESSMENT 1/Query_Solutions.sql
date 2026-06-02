@@ -110,10 +110,10 @@ select c.city,count(distinct o.customer_id) from customers c inner join orders o
 select p.product_name,count(o1.order_id) from products p inner join order_items o1 on p.product_id=o1.product_id group by o1.product_id having count(o1.order_id)>3;
 
 /*36-Customers who placed order*/
-select customer_name from customers where customer_id in (select customer_id from order_items);
+select customer_name from customers where customer_id in (select customer_id from orders);
 
 /*37-Customers who have never placed orders*/
-select customer_name from customers where customer_id not in (select customer_id from order_items);
+select customer_name from customers where customer_id not in (select customer_id from orders);
 
 /*38-Products that have never ordered*/
 select product_name from products where product_id not in(select product_id from order_items);
