@@ -1,0 +1,5 @@
+Total Employees:2
+Highest Salary:95000
+Lowest Salary:65000
+Average salary:395000.0
+Total Salary:790000
