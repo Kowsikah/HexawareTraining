@@ -1,0 +1,11 @@
+Total Players:12Total Runs:6606Average Runs:600.5454545454545Highest scorer:   player_id       player_name team  matches  runs  fours  sixes
+0        101       Virat Kohli  RCB       14   741     62     38
+2        103      Shubman Gill   GT       14   620     55     28
+4        105   Ruturaj Gaikwad  CSK       14   610     58     24
+7        108    Faf du Plessis  RCB       14   670     60     32
+9        110  Yashasvi Jaiswal   RR       14   625     57     30Team wise runsCSK[741 560 620 590 610 430 280 670 550 625 480 450]GT[741 560 620 590 610 430 280 670 550 625 480 450]KKR[741 560 620 590 610 430 280 670 550 625 480 450]LSG[741 560 620 590 610 430 280 670 550 625 480 450]MI[741 560 620 590 610 430 280 670 550 625 480 450]RCB[741 560 620 590 610 430 280 670 550 625 480 450]RR[741 560 620 590 610 430 280 670 550 625 480 450]Top 5 players   player_id       player_name team  matches  runs  fours  sixes
+0        101       Virat Kohli  RCB       14   741     62     38
+7        108    Faf du Plessis  RCB       14   670     60     32
+9        110  Yashasvi Jaiswal   RR       14   625     57     30
+2        103      Shubman Gill   GT       14   620     55     28
+4        105   Ruturaj Gaikwad  CSK       14   610     58     24Most fours:Most sixs:

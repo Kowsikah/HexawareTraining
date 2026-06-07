@@ -1,0 +1,33 @@
+City and Revenue
+Hyderabad 200000
+Bangalore 95000
+Mumbai 69000
+Chennai 70000
+Delhi 92000
+Pune 22000
+
+Category by revenue
+Electronics 474000
+Furniture 74000
+
+Products and their order revenue
+Laptop 203000
+Mobile 132000
+Chair 37000
+Table 37000
+TV 139000
+
+Product Quantities Sold
+Laptop 3
+Mobile 5
+Chair 7
+Table 3
+TV 3
+
+City and Orders
+Hyderabad 4
+Bangalore 2
+Mumbai 2
+Chennai 1
+Delhi 2
+Pune 1
