@@ -1,0 +1,111 @@
+Booking_ID,Flight_ID,Passenger_Name,Class,Price,Date
+B1001,F101,Rahul Sharma,Economy,8500,2026-06-01
+B1002,F101,Priya Reddy,Business,22000,2026-06-01
+B1003,F102,Amit Kumar,Economy,9000,2026-06-02
+B1004,F103,Sneha Patel,Premium Economy,15000,2026-06-02
+B1005,F104,Farhan Ali,Economy,7500,2026-06-03
+B1006,F105,Neha Singh,Business,25000,2026-06-03
+B1007,F106,Arjun Verma,Economy,10000,2026-06-04
+B1008,F107,Meera Nair,Premium Economy,17000,2026-06-04
+B1009,F108,Kiran Rao,Economy,9500,2026-06-05
+B1010,F109,Nisha Reddy,Business,28000,2026-06-05
+B1011,F110,David Thomas,Economy,8000,2026-06-06
+B1012,F111,Ayesha Khan,Premium Economy,16000,2026-06-06
+B1013,F112,Rohit Sharma,Economy,7000,2026-06-07
+B1014,F113,Pooja Mehta,Business,24000,2026-06-07
+B1015,F114,Sanjay Gupta,Economy,10500,2026-06-08
+B1016,F115,Divya Iyer,Premium Economy,18000,2026-06-08
+B1017,F101,Vikram Singh,Economy,8500,2026-06-09
+B1018,F103,Anjali Rao,Business,23000,2026-06-09
+B1019,F107,Faiz Ahmed,Economy,9500,2026-06-10
+B1020,F110,Megha Kapoor,Premium Economy,15500,2026-06-10
+B1021,F111,Kavita Sharma,Premium Economy,15500,2026-06-08
+B1022,F103,Arjun Chatterjee,Premium Economy,17000,2026-06-03
+B1023,F110,Sapna Verma,Economy,8500,2026-06-08
+B1024,F109,Sandeep Sharma,Economy,10000,2026-06-08
+B1025,F108,Kajal Mehta,Premium Economy,15000,2026-06-06
+B1026,F112,Sapna Rao,Economy,8500,2026-06-11
+B1027,F102,Kriti Kapoor,Economy,9500,2026-06-20
+B1028,F105,Amit Malhotra,Economy,7500,2026-06-13
+B1029,F102,Aarti Joshi,Premium Economy,17000,2026-06-12
+B1030,F110,Gaurav Banerjee,Economy,8500,2026-06-10
+B1031,F102,Manish Kulkarni,Economy,9000,2026-06-15
+B1032,F111,Jyoti Reddy,Economy,8500,2026-06-09
+B1033,F112,Rohan Sen,Premium Economy,17000,2026-06-08
+B1034,F103,Divya Kapoor,Economy,8500,2026-06-11
+B1035,F114,Deepika Patel,Premium Economy,18000,2026-06-11
+B1036,F107,Ritu Gupta,Economy,9500,2026-06-07
+B1037,F111,Pooja Kapoor,Business,27000,2026-06-15
+B1038,F103,Aditya Singh,Economy,9000,2026-06-19
+B1039,F107,Kajal Kapoor,Economy,8000,2026-06-17
+B1040,F108,Kriti Aggarwal,Economy,7500,2026-06-05
+B1041,F111,Vikram Shah,Premium Economy,17000,2026-06-03
+B1042,F107,Abhishek Sen,Business,26000,2026-06-09
+B1043,F109,Raj Chatterjee,Premium Economy,17000,2026-06-18
+B1044,F113,Ritu Aggarwal,Premium Economy,15000,2026-06-10
+B1045,F107,Vikram Ahmed,Economy,9000,2026-06-17
+B1046,F113,Priya Das,Business,27000,2026-06-10
+B1047,F114,Nikhil Sen,Economy,9500,2026-06-06
+B1048,F109,Swati Pillai,Economy,9500,2026-06-16
+B1049,F101,Kavita Pillai,Economy,9000,2026-06-08
+B1050,F101,Shweta Joshi,Economy,7500,2026-06-03
+B1051,F112,Pooja Desai,Economy,8000,2026-06-05
+B1052,F111,Akash Mishra,Economy,10000,2026-06-07
+B1053,F115,Harish Aggarwal,Premium Economy,15500,2026-06-10
+B1054,F107,Jyoti Ahmed,Business,25500,2026-06-04
+B1055,F104,Manish Gupta,Economy,8500,2026-06-19
+B1056,F104,Raj Gupta,Premium Economy,15000,2026-06-08
+B1057,F102,Amit Kulkarni,Economy,8500,2026-06-09
+B1058,F111,Pooja Nair,Economy,10500,2026-06-08
+B1059,F113,Akash Shah,Economy,7500,2026-06-04
+B1060,F111,Sapna Iyer,Economy,10500,2026-06-02
+B1061,F111,Arjun Verma,Economy,9500,2026-06-04
+B1062,F104,Gaurav Nair,Economy,8000,2026-06-14
+B1063,F103,Ritu Ahmed,Economy,7500,2026-06-15
+B1064,F113,Aarti Kumar,Economy,7000,2026-06-03
+B1065,F115,Shweta Reddy,Economy,10500,2026-06-07
+B1066,F114,Preeti Joshi,Economy,10000,2026-06-01
+B1067,F107,Aditya Pillai,Premium Economy,16500,2026-06-10
+B1068,F107,Aarti Chatterjee,Premium Economy,14500,2026-06-07
+B1069,F105,Ananya Verma,Economy,7000,2026-06-11
+B1070,F101,Deepika Choudhury,Economy,8000,2026-06-02
+B1071,F109,Kriti Kulkarni,Economy,7500,2026-06-08
+B1072,F107,Kavita Joshi,Economy,7000,2026-06-20
+B1073,F102,Rahul Chatterjee,Economy,9500,2026-06-09
+B1074,F104,Karan Patel,Economy,8000,2026-06-10
+B1075,F108,Karan Pillai,Premium Economy,15000,2026-06-01
+B1076,F108,Megha Choudhury,Business,22500,2026-06-18
+B1077,F104,Nikhil Mehta,Economy,9500,2026-06-03
+B1078,F115,Shweta Iyer,Economy,10500,2026-06-18
+B1079,F112,Sunita Sen,Business,28000,2026-06-17
+B1080,F101,Aarti Joshi,Business,22500,2026-06-05
+B1081,F105,Kavita Joshi,Economy,8000,2026-06-09
+B1082,F105,Sandeep Nair,Premium Economy,15500,2026-06-09
+B1083,F109,Pooja Mehta,Business,23000,2026-06-03
+B1084,F111,Sapna Desai,Economy,7000,2026-06-11
+B1085,F113,Suresh Bose,Business,23000,2026-06-15
+B1086,F109,Sapna Mishra,Economy,8000,2026-06-05
+B1087,F109,Amit Desai,Economy,8000,2026-06-14
+B1088,F103,Amit Joshi,Economy,7000,2026-06-12
+B1089,F104,Shweta Chatterjee,Economy,10000,2026-06-20
+B1090,F112,Ramesh Pillai,Business,23000,2026-06-06
+B1091,F115,Rahul Sharma,Economy,9500,2026-06-14
+B1092,F113,Shweta Mehta,Economy,7500,2026-06-13
+B1093,F114,Amit Kulkarni,Economy,8000,2026-06-15
+B1094,F106,Sunita Desai,Premium Economy,15500,2026-06-08
+B1095,F101,Gaurav Kapoor,Economy,7500,2026-06-09
+B1096,F106,Nikhil Kapoor,Premium Economy,18000,2026-06-18
+B1097,F106,Simran Kumar,Business,24000,2026-06-06
+B1098,F110,Aditya Verma,Economy,10000,2026-06-12
+B1099,F112,Karan Khan,Premium Economy,17000,2026-06-04
+B1100,F107,Pranav Nair,Economy,10000,2026-06-01
+B1101,F101,Arjun Gupta,Business,24500,2026-06-19
+B1102,F111,Anjali Patel,Economy,7000,2026-06-19
+B1103,F109,Amit Joshi,Economy,10000,2026-06-19
+B1104,F107,Vikram Sharma,Business,22500,2026-06-19
+B1105,F107,Vikram Verma,Economy,10500,2026-06-19
+B1106,F103,Amit Joshi,Business,24000,2026-06-19
+B1107,F110,Vikram Nair,Economy,7000,2026-06-19
+B1108,F103,Rahul Gupta,Economy,7500,2026-06-19
+B1109,F109,Kriti Verma,Business,26500,2026-06-19
+B1110,F111,Rahul Verma,Premium Economy,16500,2026-06-19

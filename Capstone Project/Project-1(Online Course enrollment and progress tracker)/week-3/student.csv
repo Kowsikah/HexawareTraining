@@ -1,0 +1,11 @@
+student_id,student_name,blood_group,phone_no,city,student_status
+101,Alice Smith,O+,9876543210,Chennai,Active
+102,Bob Jones,A+,9876543211,Mumbai,Active
+103,,B+,9876543212,Bangalore,Active
+104,Charlie Brown,O-,9876543213,Delhi,Active
+105,Diana Prince,AB+,9876543214,Hyderabad,Active
+106,Evan Wright,A-,9876543215,Kochi,Active
+107,Fiona Gallagher,O+,9876543216,Pune,Active
+108,George Clark,B-,9876543217,Chennai,Active
+109,Hannah Abbott,A+,9876543218,Mumbai,Active
+110,Ian Malcolm,AB-,9876543219,Bangalore,Active

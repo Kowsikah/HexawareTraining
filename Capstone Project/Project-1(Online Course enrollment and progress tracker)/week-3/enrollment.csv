@@ -1,0 +1,11 @@
+enrollment_id,student_id,course_id,enrollment_date,progress_percentage,enrollment_status
+1001,101,201,2026-01-15,85,Enrolled
+1002,102,202,2026-01-20,45,Enrolled
+1003,103,201,2026-02-01,100,Completed
+1004,104,203,2026-01-10,12,Dropped
+1005,105,202,,105,Enrolled
+1006,106,201,2026-02-15,,Enrolled
+1007,107,203,2026-01-22,100,Completed
+1008,108,202,2026-02-05,-5,Dropped
+1009,109,201,2026-01-18,50,Enrolled
+1010,110,203,2026-02-10,75,Enrolled

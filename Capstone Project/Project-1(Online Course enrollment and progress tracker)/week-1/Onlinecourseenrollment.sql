@@ -12,12 +12,15 @@ create table students(student_id int PRIMARY KEY,
                     
                       );                    
 
-create table enrollments (
-           enrollment_id int PRIMARY KEY,
-           student_id int,
-           course_id int,
-           FOREIGN KEY (student_id) REFERENCES students(student_id),
-           FOREIGN KEY (course_id) REFERENCES courses(course_id) 
+CREATE TABLE enrollments (
+    enrollment_id INT PRIMARY KEY,
+    student_id INT,
+    course_id INT,
+    enrollment_date DATE NOT NULL,
+    enrollment_status VARCHAR(20) DEFAULT 'Enrolled' 
+        CHECK (enrollment_status IN ('Enrolled', 'Completed', 'Dropped')),
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
 );
 
 CREATE TABLE modules (
@@ -67,14 +70,14 @@ INSERT INTO modules (module_id, course_id, module_name, module_videos, module_pp
 
 
 
-INSERT INTO enrollments (enrollment_id, student_id, course_id) VALUES
-(1001, 1, 101),
-(1002, 2, 101), 
-(1003, 4, 101), 
-(1004, 1, 102), 
-(1005, 5, 102), 
-(1006, 2, 103), 
-(1007, 4, 103); 
+INSERT INTO enrollments (enrollment_id, student_id, course_id, enrollment_date) VALUES
+(1001, 1, 101, '2026-01-15'),
+(1002, 2, 102, '2026-01-20'), 
+(1003, 3, 101, '2026-02-01'), 
+(1004, 4, 103, '2026-01-10'), 
+(1005, 5, 102,'2026-01-10' ), 
+(1006, 6, 101, '2026-02-15'), 
+(1007, 7, 103, '2026-01-22');
 
 
 INSERT INTO progress (progress_id, enrollment_id, module_id, video_completed, ppt_completed, Quiz_completed) VALUES
@@ -88,7 +91,7 @@ INSERT INTO progress (progress_id, enrollment_id, module_id, video_completed, pp
 (2008, 1005, 602, 0, 0, 0),
 (2009, 1005, 603, 0, 0, 0),
 (2010, 1006, 701, 8, 3, 4),
-(2011, 1007, 701, 4, 2, 1);
+(2011, 1007, 701, 5, 3, 3);
 
 /*Displaying all tables*/
 select * from students;
@@ -106,7 +109,7 @@ select c.course_name,m.module_name from
  on c.course_id=m.course_id;
 
 /*Adding new enrollments*/
-insert into enrollments values(1008,5,101);
+insert into enrollments values(1008,5,101,'2026-01-01','Dropped');
 insert into progress values(2012,1008,501,10,2,0);
 
 

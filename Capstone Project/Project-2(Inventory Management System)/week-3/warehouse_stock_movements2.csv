@@ -1,0 +1,19 @@
+movement_id,warehouse_id,product_id,product_name,movement_type,date_movement,quantity_changed,reorder_level
+9001,1001,10,Quantum Laptop Pro,IN,2026-06-01,50,15
+9002,1001,10,Quantum Laptop Pro,OUT,2026-06-05,-15,15
+9003,1002,10,Quantum Laptop Pro,IN,2026-06-02,20,15
+9004,1002,10,Quantum Laptop Pro,OUT,2026-06-14,-14,15
+9005,1001,20,Wireless Ergonomic Mouse,IN,,200,50
+9006,1001,20,Wireless Ergonomic Mouse,OUT,2026-06-12,-220,50
+9007,1003,20,Wireless Ergonomic Mouse,IN,2026-06-04,450,50
+9008,1003,20,Wireless Ergonomic Mouse,OUT,2026-06-10,-50,50
+9009,1002,30,Running Shoes Cloud-9,IN,2026-06-08,120,30
+9010,1002,30,Running Shoes Cloud-9,OUT,2026-06-14,-95,30
+9011,1003,30,Running Shoes Cloud-9,IN,2026-06-09,40,30
+9012,1003,30,Running Shoes Cloud-9,OUT,2026-06-15,-35,30
+9013,1001,40,Stainless Water Bottle,IN,2026-06-11,300,75
+9014,1001,40,Stainless Water Bottle,OUT,2026-06-13,10,75
+9015,1002,40,Stainless Water Bottle,IN,2026-06-12,100,75
+9016,1002,40,Stainless Water Bottle,OUT,2026-06-15,-15,75
+9017,1003,50,Mechanical Keyboard,IN,2026-06-13,80,120
+9018,1003,50,Mechanical Keyboard,OUT,2026-06-16,-10,120
