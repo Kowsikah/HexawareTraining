@@ -1,0 +1,5 @@
+product_id,product_name,current_stock,reorder_level,needs_reorder
+10,Quantum Laptop Pro,0,15,True
+20,Wireless Ergonomic Mouse,-220,50,True
+30,Running Shoes Cloud-9,0,30,True
+40,Stainless Water Bottle,0,75,True

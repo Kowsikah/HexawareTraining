@@ -1,0 +1,10 @@
+product_id,product_name,movement_type,date_movement,quantity,reorder_level
+10,Quantum Laptop Pro,IN,2026-06-01,50,15
+10,Quantum Laptop Pro,OUT,2026-06-05,-15,15
+20,Wireless Ergonomic Mouse,IN,,200,50
+20,Wireless Ergonomic Mouse,OUT,2026-06-12,-220,50
+30,Running Shoes Cloud-9,IN,2026-06-08,120,30
+30,Running Shoes Cloud-9,OUT,2026-06-14,-95,30
+40,Stainless Water Bottle,IN,2026-06-11,300,75
+40,Stainless Water Bottle,OUT,2026-06-13,INVALID_NUM,75
+50,Mechanical Keyboard,IN,2026-06-13,80,20

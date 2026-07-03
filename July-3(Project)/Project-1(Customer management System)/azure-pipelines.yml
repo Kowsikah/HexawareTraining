@@ -1,0 +1,42 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+# Use Python
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+  displayName: 'Use Python 3.11'
+
+# Verify Python Installation
+- script: |
+    python --version
+  displayName: 'Verify Python Version'
+
+# Install Dependencies (if requirements.txt exists)
+- script: |
+    python -m pip install --upgrade pip
+    if [ -f requirements.txt ]; then
+      pip install -r requirements.txt
+    else
+      echo "No requirements.txt found. Skipping dependency installation."
+    fi
+  displayName: 'Install Dependencies'
+
+# Execute Python Application
+- script: |
+    python customer_management.py <<EOF
+    6
+    EOF
+  displayName: 'Run Customer Management System'
+
+# Verify Build Completion
+- script: |
+    echo "===================================="
+    echo "Customer Management System Build Successful!"
+    echo "CI Pipeline Executed Successfully."
+    echo "===================================="
+  displayName: 'Build Validation'

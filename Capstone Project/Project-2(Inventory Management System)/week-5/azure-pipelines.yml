@@ -1,0 +1,39 @@
+# Week 5: Automated Inventory Reorder Pipeline
+trigger: none 
+
+schedules:
+  - cron: "0 0 * * *" 
+    displayName: 'Daily Inventory Reorder Check'
+    branches:
+      include:
+        - main
+    always: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  # 1. Ensure Python environment is ready
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.x'
+    displayName: 'Use Python 3.x'
+
+  # 2. Run the inventory processing script
+  - script: |
+      pip install pandas numpy
+      python main1.py
+    displayName: 'Execute Inventory Logic'
+
+  # 3. Debug step to verify the file location (only needed if artifact is still empty)
+  - script: |
+      ls -R
+    displayName: 'Debug: List files in workspace'
+
+  # 4. Publish the output CSV as an Artifact
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: '$(System.DefaultWorkingDirectory)/reorder_list.csv'
+      artifact: 'DailyReorderReports'
+      publishLocation: 'pipeline'
+    displayName: 'Publish reorder_list.csv'

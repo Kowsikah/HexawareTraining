@@ -1,0 +1,32 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+  displayName: 'Use Python 3.11'
+
+- script: |
+    python --version
+  displayName: 'Verify Python Installation'
+
+- script: |
+    python loan_app.py <<EOF
+    Priya Reddy
+    65000
+    750
+    yes
+    EOF
+  displayName: 'Run Loan Eligibility Application'
+
+- script: |
+    echo "=================================="
+    echo "Loan Eligibility Application"
+    echo "Pipeline Executed Successfully"
+    echo "=================================="
+  displayName: 'Build Validation'
